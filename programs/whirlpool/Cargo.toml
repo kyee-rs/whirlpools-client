@@ -15,13 +15,13 @@ cpi = ["no-entrypoint"]
 default = []
 
 [dependencies]
-anchor-lang = "0.29"
-anchor-spl = "0.29"
-spl-token = {version = "3.3", features = ["no-entrypoint"]}
+anchor-lang = "0.30.1"
+anchor-spl = "0.30.1"
+spl-token = { version = "3.3", features = ["no-entrypoint"] }
 solana-program = "1.17"
-thiserror = "1.0"
-uint = {version = "0.9.1", default-features = false}
-borsh = "0.10.3"
+thiserror = "2.0.11"
+uint = { version = "0.9.5", default-features = false }
+borsh = "1.5.5"
 bytemuck = { version = "1.7.2" }
 
 [dev-dependencies]
