@@ -1,4 +1,7 @@
 [workspace]
-members = [
-    "programs/*"
-]
+members = ["programs/*"]
+
+[patch.crates-io]
+solana-zk-sdk = { git = "https://github.com/anza-xyz/agave.git", tag = "v2.1.11" }
+spl-pod = { git = "https://github.com/kyee-rs/spl-pod.git", branch = "main" }
+solana-program = { git = "https://github.com/anza-xyz/agave.git", tag = "v2.1.11" }
